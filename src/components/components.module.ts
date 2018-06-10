@@ -1,8 +1,11 @@
 import { NgModule } from '@angular/core';
-import { SliderComponent } from './slider/slider';
+import { MovieitemComponent } from './movieitem/movieitem';
+import { RatingComponent } from './rating/rating';
 @NgModule({
-	declarations: [SliderComponent],
+	declarations: [MovieitemComponent,
+    RatingComponent],
 	imports: [],
-	exports: [SliderComponent]
+	exports: [MovieitemComponent,
+    RatingComponent]
 })
 export class ComponentsModule {}

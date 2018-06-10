@@ -12,6 +12,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import {ClassifyPage} from "../pages/classify/classify";
 import {FavoritePage} from "../pages/favorite/favorite";
 import {PersonalPage} from "../pages/personal/personal";
+import { CommonModule } from '@angular/common';
+import { ComponentsModule } from '../components/components.module';
+import { BaiduPage } from '../pages/baidu/baidu';
 
 
 
@@ -24,9 +27,12 @@ import {PersonalPage} from "../pages/personal/personal";
     FavoritePage,
     PersonalPage,
     TabsPage,
+    BaiduPage
   ],
   imports: [
     BrowserModule,
+    CommonModule,
+    ComponentsModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
@@ -36,7 +42,8 @@ import {PersonalPage} from "../pages/personal/personal";
     ClassifyPage,
     FavoritePage,
     PersonalPage,
-    TabsPage
+    TabsPage,
+    BaiduPage
   ],
   providers: [
     StatusBar,

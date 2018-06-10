@@ -1,16 +1,11 @@
-
-<ion-content padding>
-  <div class="slider">
-      <ion-slides autoplay=3000 loop=true>
-        <ion-slide>
-          <img src="http://placehold.it/800x300" alt="">
-        </ion-slide>
-        <ion-slide>
-          <img src="http://placehold.it/800x300" alt="">
-        </ion-slide>
-        <ion-slide>
-          <img src="http://placehold.it/800x300" alt="">
+<ion-content>
+    <ion-slides pager class="slider" autoplay=3000 loop=true>
+        <ion-slide *ngFor="let item of sliders">
+          <img [src]="item.imgUrl" alt="">
         </ion-slide>
       </ion-slides>
-  </div>
+      <ion-searchbar placeholder="搜索">
+      </ion-searchbar>
+      <movieitem></movieitem>
+      <button ion-button (click)="goBaidu()">Baidu</button>
 </ion-content>
