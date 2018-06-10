@@ -6,6 +6,26 @@
       </ion-slides>
       <ion-searchbar placeholder="搜索">
       </ion-searchbar>
-      <movieitem></movieitem>
-      <button ion-button (click)="goBaidu()">Baidu</button>
+      <!-- <movieitem></movieitem>
+      <button ion-button (click)="goBaidu()">Baidu</button> -->
+      <ion-grid>
+        <ion-row>
+          <ion-col col-3 class="col-class-1">
+            <ion-icon class="iconfont expense" (click)="goReimubursePage()">&#xe60d;</ion-icon>
+            <p class="title">报销单</p>
+          </ion-col>
+          <ion-col col-3 class="col-class-2">
+            <ion-icon class="iconfont application" (click)="goApplication()">&#xe62d;</ion-icon>
+            <p class="title">申请单</p>
+          </ion-col>
+          <ion-col col-3 class="col-class-2">
+            <ion-icon class="iconfont loan">&#xe613;</ion-icon>
+            <p class="title">借款单</p>
+          </ion-col>
+          <ion-col col-3 class="col-class-3">
+            <ion-icon class="iconfont traffic">&#xe6b1;</ion-icon>
+            <p class="title">交通报销</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
 </ion-content>

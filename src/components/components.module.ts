@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
 import { MovieitemComponent } from './movieitem/movieitem';
 import { RatingComponent } from './rating/rating';
+
 @NgModule({
 	declarations: [MovieitemComponent,
-    RatingComponent],
+    RatingComponent,
+   ],
 	imports: [],
 	exports: [MovieitemComponent,
-    RatingComponent]
+    RatingComponent,
+    ]
 })
 export class ComponentsModule {}

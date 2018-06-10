@@ -14,7 +14,9 @@ import {FavoritePage} from "../pages/favorite/favorite";
 import {PersonalPage} from "../pages/personal/personal";
 import { CommonModule } from '@angular/common';
 import { ComponentsModule } from '../components/components.module';
-import { BaiduPage } from '../pages/baidu/baidu';
+import {ReimubursePage} from "../pages/reimuburse/reimuburse";
+import {ApplicationPage} from "../pages/application/application";
+
 
 
 
@@ -27,7 +29,8 @@ import { BaiduPage } from '../pages/baidu/baidu';
     FavoritePage,
     PersonalPage,
     TabsPage,
-    BaiduPage
+    ReimubursePage,
+    ApplicationPage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +46,9 @@ import { BaiduPage } from '../pages/baidu/baidu';
     FavoritePage,
     PersonalPage,
     TabsPage,
-    BaiduPage
+    ReimubursePage,
+    ApplicationPage
+
   ],
   providers: [
     StatusBar,

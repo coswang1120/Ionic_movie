@@ -86,3 +86,29 @@ $colors: (
 
 @import "roboto";
 @import "noto-sans";
+
+@font-face {font-family: "Ionicons";
+  src: url('../../assets/imgs/tab/iconfont.eot'); /* IE9*/
+  src: url('../../assets/imgs/tab/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../../assets/imgs/tab/iconfont.woff') format('woff'),
+  url('../../assets/imgs/tab/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../../assets/imgs/tab/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;}
+
+.ion-caiwu:before { content: "\e940"; }
+
+.ion-caiwubaobiao:before { content: "\e628"; }
+
+.ion-caiwuguanli:before { content: "\e615"; }
+
+.ion-icon-test:before { content: "\e610"; }
+
+.ion-caiwu1:before { content: "\e617"; }
+
+.ion-caiwuguanli1:before { content: "\e805"; }
